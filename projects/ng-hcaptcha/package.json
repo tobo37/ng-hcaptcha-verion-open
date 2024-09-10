@@ -1,7 +1,7 @@
 {
-  "name": "ng-hcaptcha",
-  "version": "2.3.1",
-  "description": "hCaptcha Component for Angular",
+  "name": "ng-hcaptcha-open-version",
+  "version": "18.2.3",
+  "description": "Fork of hCaptcha Component for Angular",
   "keywords": [
     "hcaptcha",
     "captcha",
@@ -9,22 +9,22 @@
     "verification"
   ],
   "bugs": {
-    "url": "https://github.com/leNicDev/ng-hcaptcha/issues"
+    "url": "https://github.com/tobo37/ng-hcaptcha-verion-open/issues"
   },
   "contributors": [
-    "leNicDev"
+    "leNicDev",
+    "tobo37"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/leNicDev/ng-hcaptcha.git"
+    "url": "https://github.com/tobo37/ng-hcaptcha-verion-open.git"
   },
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0",
-    "@angular/core": "^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0",
-    "@angular/forms": "^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0"
-  }
-,
+    "@angular/common": "^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || >= 18.0.0",
+    "@angular/core": "^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || >= 18.0.0",
+    "@angular/forms": "^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || >= 18.0.0"
+  },
   "dependencies": {
     "tslib": "^2.0.0"
   }
